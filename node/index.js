@@ -1,7 +1,7 @@
 const path = require('path')
 const fn = require('./concerns')
 const folder = path.join(__dirname, '..', 'subtitles')
-const symbols = ['.', '?', '-', ',', '"', '♪', '_', '<i>', '</i>', '\r', '[', ']', '(', ')']
+const symbols = ['.', '?', '!', '-', ',', '"', '♪', '&', '_', '<i>', '</i>', '\r', '[', ']', '(', ')']
 
 fn.readDir(folder)
   .then(fn.filesFilter('.srt'))
