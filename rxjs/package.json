@@ -1,0 +1,18 @@
+{
+  "name": "word-frequecy-rxjs",
+  "version": "1.0.0",
+  "description": "Counting Word Frequencies with JavaScript and RXJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "Pedro Rogério",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "rxjs": "^6.6.3"
+  }
+}
